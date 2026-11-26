@@ -30,6 +30,13 @@ HODDI/
 └── utils/                       # Shared utilities
 ```
 
+## Data Download
+
+**Positive samples** (original HODDI dataset) can be downloaded from:
+- https://github.com/TIML-Group/HODDI
+
+After downloading, place the data in `dataset/` and run the generation scripts to create negative samples.
+
 ## Dataset Generation
 
 ### v14: 1:X Negative Sampling (Random Replacement)
@@ -154,13 +161,6 @@ The GNN uses clique expansion to convert multi-drug interactions to pairwise:
 - Expanded: (Drug_A, Drug_B) → SE, (Drug_A, Drug_C) → SE, (Drug_B, Drug_C) → SE
 
 The clique expansion code is in `2_GNN/utils/data_utils.py`.
-
-## Data Download
-
-**Positive samples** (original HODDI dataset) can be downloaded from:
-- https://github.com/TIML-Group/HODDI
-
-After downloading, place the data in `dataset/HODDI_v14/` or run the generation scripts to create negative samples.
 
 ## Notes
 
