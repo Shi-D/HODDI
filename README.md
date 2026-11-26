@@ -162,16 +162,6 @@ The GNN uses clique expansion to convert multi-drug interactions to pairwise:
 
 The clique expansion code is in `2_GNN/utils/data_utils.py`.
 
-## Notes
-
-- Dataset files are not included in git (see `.gitignore`)
-- Run the generation scripts to create negative samples after downloading positive data
-- Model checkpoints are saved in `{model}/output/` directories
-
-## License
-
-See LICENSE.txt for details.
-
 ## Citation
 
 ```latex
