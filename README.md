@@ -33,7 +33,7 @@ HODDI/
 ## Data Download
 
 **Positive samples** (original HODDI dataset) can be downloaded from:
-- https://github.com/TIML-Group/HODDI
+- https://github.com/TIML-Group/HODDI/tree/main/dataset/HODDI_v2
 
 After downloading, place the data in `dataset/` and run the generation scripts to create negative samples.
 
