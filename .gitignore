@@ -1,0 +1,41 @@
+# Data files (too large for git)
+dataset/HODDI_v*/
+dataset/*.csv
+dataset/*.xlsx
+dataset/*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+.eggs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+wandb/
+
+# Model outputs
+1_HGNN/output/
+2_GNN/output/
+3_MLP/output/
+
+# Temporary files
+*.tmp
+*.temp
+.claude/
